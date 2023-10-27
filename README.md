@@ -9,7 +9,10 @@
              https://www.promptingguide.ai/introduction
       
 3. Generative models on images
-4. DL
-5. ML
-6. Staticstics
-7. Maths
+4. RL
+            https://huggingface.co/blog/rlhf
+   
+6. DL
+7. ML
+8. Staticstics
+9. Maths

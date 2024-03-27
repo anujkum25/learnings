@@ -7,9 +7,13 @@ Created on Tue Oct 27 15:07:58 2020
 job env for the project
 """
 
+## modify few things
+
 import numpy as np
 import pandas as pd
 import random
+
+import pandas as pd
 
 class job_shop_env():
     path = './data/'

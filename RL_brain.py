@@ -1,11 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Oct 28 11:09:12 2020
-
-@author: lvjf
-
-RL brain for JSSP
-
 LSTM for memory, thus no need for store transitions
 """
 

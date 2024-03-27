@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Oct 28 11:07:42 2020
-
-@author: lvjf
-
-utils: contain some useful functions for JSSP
-"""
-
 from torch import nn
 import torch
 import numpy as np

@@ -1,14 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Oct 28 17:11:38 2020
 
-@author: lvjf
-
-run.py with args
-"""
 
 from __future__ import print_function
-
 import argparse
 from trainer import train
 

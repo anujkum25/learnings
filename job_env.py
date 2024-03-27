@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct 27 15:07:58 2020
-
-@author: lvjf
 
 job env for the project
 """
@@ -16,7 +13,7 @@ import random
 import pandas as pd
 
 class job_shop_env():
-    path = './data/'
+    path = '/workspaces/learnings/Job_Shop_Scheduling_Problem_with_Reinforcement_Learning/data/'
     expert_job = pd.read_csv(path + 'process_time_matrix.csv',header=None).drop([0]).values
     job = pd.read_csv(path + 'work_order.csv',header=None).values
     

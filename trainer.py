@@ -64,7 +64,7 @@ def train(args):
             reward = max(min(reward, 1), -1)
             if episode_length % 20 == 0:
                 print(reward)
-                #print(done_job)
+                print(done_job)
 
             if done:
                 complete_jobs.append(done_job)
@@ -86,7 +86,7 @@ def train(args):
         
         if len(list(set(update_list))) > 8800:
             ## write results into the csv file
-            with open('submit_{}.csv'.format(len(list(set(update_list)))),'w') as f:
+            with open('output_{}.csv'.format(len(list(set(update_list)))),'w') as f:
                 writer = csv.writer(f)
                 for i in range(len(complete_jobs)):
                     for j in range(len(complete_jobs[i])):
@@ -94,7 +94,7 @@ def train(args):
 
         if episode == args.episode -1 or len(list(set(update_list))) == 8840:
             ## write results into the csv file
-            with open('submit.csv','w') as f:
+            with open('output.csv','w') as f:
                 writer = csv.writer(f)
                 for i in range(len(complete_jobs)):
                     for j in range(len(complete_jobs[i])):
